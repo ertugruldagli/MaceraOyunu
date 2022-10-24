@@ -11,6 +11,11 @@ public class Player {
         this.name=name;
     }
 
+    public void selectChar(){
+        System.out.println("-------------------------------------------------------");
+        System.out.println("Karakter: Samuray \t Hasar: 5 \t Saglik: 21 \t Para: 15");
+    }
+
     public int getDamage(){
         return this.damage;
     }
