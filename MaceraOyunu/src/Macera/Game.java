@@ -12,7 +12,9 @@ public class Game {
         String playerName=input.next();
 
         Player p1=new Player(playerName);
-        System.out.println(p1.getName()+" Hosgeldin!");
+        System.out.println("Sayin "+p1.getName()+" bu karanlik sisli bir adaya hosgeldin!");
+
+        p1.selectChar();
 
     }
 }
