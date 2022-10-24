@@ -11,5 +11,8 @@ public class Game {
         System.out.print("Lutfen bir isim giriniz: ");
         String playerName=input.next();
 
+        Player p1=new Player(playerName);
+        System.out.println(p1.getName()+" Hosgeldin!");
+
     }
 }
