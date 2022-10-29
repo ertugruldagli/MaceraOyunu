@@ -2,7 +2,7 @@ import Macera.GameCharacter;
 
 public class Samurai extends GameCharacter {
 
-    public Samurai(int damage, int healt, int money){
-        super(damage, healt, money);
+    public Samurai(){
+        super(5,25,150);
     }
 }
