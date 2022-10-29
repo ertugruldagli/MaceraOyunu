@@ -1,2 +1,5 @@
-public class Samurai {
+import Macera.GameCharacter;
+
+public class Samurai extends GameCharacter {
+
 }
